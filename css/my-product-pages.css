@@ -1,0 +1,40 @@
+/* The dropdown container */
+.dropdown {
+  /* float: left;
+  overflow: hidden; */
+    position: relative;
+    display: inline-block;
+  
+}
+
+.enclosure-bg {
+  background-image: url("../images/shower-enclosures/colages-and-banners/enclosure-banner-pics/enclosure-banner-lg.jpg");
+  background-size:  auto 100%;
+}
+.table-tops-bg {
+  background-image: url("../images/table-tops/colages-and-banners/table-top-banner-rounded-corners.png");
+  background-size:  auto 100%;
+  border-radius: 10px !important;
+}
+.my-color {
+  color: var(--logoDark);
+  /* -webkit-text-stroke: 3px #028AC3;
+   color: #028AC3; */
+  text-shadow:
+    /* 3px 3px 0 #000, */
+    /* -3px 3px 0 #000,
+    3px -3px 0 #000,
+    -3px -3px 0 #000, */
+    4px 4px 5px #eee,
+    -4px 4px 5px #eee,
+    4px -4px 5px #eee,
+    -4px -4px 5px #eeef;
+}
+.ten-px-rounded {
+  border-radius: 10px !important;
+}
+.my-email-form {
+  margin-bottom: 2em !important;
+  font-size: 1.3em;
+  font-weight: bold;
+}

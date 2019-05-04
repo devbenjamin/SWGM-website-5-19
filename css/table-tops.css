@@ -1,0 +1,56 @@
+/* The dropdown container */
+.dropdown {
+  /* float: left;
+  overflow: hidden; */
+    position: relative;
+    display: inline-block;
+  
+}
+.my-nav-item {
+  opacity: 0.65;
+  transition: 0.3s;
+}
+.btn.hover {
+  opacity: 0.65;
+  transition: 0.3s;
+}
+.my-nav-item:hover {
+  background-color: var(--logoLight) !important;
+  /* border-color: var(--logoLight) !important; */
+  color: #222 !important;
+  opacity: 1.0;
+}
+.nav-logo {
+  padding: 0 0 0 2px;
+}
+.nav-logo:hover {
+  border: var(--logoMedium) 2px solid;
+  padding: 0;
+}
+.enclosure-bg {
+  background-image: url("../images/shower-enclosures/colages-and-banners/enclosure-banner.jpg");
+  background-size:  auto 100%;
+}
+  .my-color {
+  color: var(--logoDark);
+  /* -webkit-text-stroke: 3px #028AC3;
+   color: #028AC3; */
+   text-shadow:
+      /* 3px 3px 0 #000, */
+      /* -3px 3px 0 #000,
+      3px -3px 0 #000,
+      -3px -3px 0 #000, */
+      4px 4px 5px #eee,
+      -4px 4px 5px #eee,
+      4px -4px 5px #eee,
+      -4px -4px 5px #eeef;
+
+}
+.ten-px-rounded {
+  border-radius: 10px !important;
+}
+.my-email-form {
+  margin-bottom: 2em !important;
+  font-size: 1.3em;
+  font-weight: bold;
+}
